@@ -1,11 +1,13 @@
 export default function ListaUsuarios(props){
     console.log(props.usuarios)
 
-    return <main className="col-md-8">
+    return <main className="col-md">
         <table className="table">
             <thead>
-                <th>Usuario</th>
-                <th>Password</th>
+                <tr>
+                    <th>Usuario</th>
+                    <th>Password</th>
+                </tr>
             </thead>
             <tbody id="data_proyectos">
                 {
